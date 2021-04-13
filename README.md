@@ -1,0 +1,3 @@
+# expense
+
+npm i && start
