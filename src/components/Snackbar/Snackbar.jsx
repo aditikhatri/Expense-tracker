@@ -27,3 +27,4 @@ const CustomizedSnackbar = ({ open, setOpen }) => {
 };
 
 export default CustomizedSnackbar;
+// notification if trans is successful

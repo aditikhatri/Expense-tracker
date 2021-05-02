@@ -9,3 +9,4 @@ export default (date) => {
 
   return [year, month, day].join('-');
 };
+// formate date 

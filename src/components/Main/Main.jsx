@@ -17,15 +17,23 @@ const ExpenseTracker = () => {
       <CardContent>
         <Typography align="center" variant="h5">Total Balance ${balance}</Typography>
         <Typography variant="subtitle1" style={{ lineHeight: '1.5em', marginTop: '20px' }}>
+         
           <InfoCard />
+
         </Typography>
         <Divider className={classes.divider} />
+      
+      
         <Form />
+         
       </CardContent>
+
       <CardContent className={classes.cartContent}>
         <Grid container spacing={2}>
           <Grid item xs={12}>
-            <List />
+            
+             <List />
+
           </Grid>
         </Grid>
       </CardContent>
@@ -34,3 +42,6 @@ const ExpenseTracker = () => {
 };
 
 export default ExpenseTracker;
+//inside main
+
+// create infor card, form, list

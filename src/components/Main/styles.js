@@ -22,3 +22,4 @@ export default makeStyles((theme) => ({
     margin: '20px 0',
   },
 }));
+//styles for main.jsx

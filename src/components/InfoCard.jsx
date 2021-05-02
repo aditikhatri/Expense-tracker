@@ -15,3 +15,4 @@ const InfoCard = () => {
 };
 
 export default InfoCard;
+//show diffrent info diffrent times randomly

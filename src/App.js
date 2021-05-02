@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { Grid } from '@material-ui/core';
-
+//grid to position the cards
 import { SpeechState, useSpeechContext } from "@speechly/react-client";
 import { PushToTalkButton, PushToTalkButtonContainer } from '@speechly/react-ui';
 
@@ -9,6 +9,7 @@ import useStyles from './styles';
 
 const App = () => {
   const classes = useStyles();
+  // to auto go up while speaking inmobile.
   const { speechState } = useSpeechContext();
   const main = useRef(null)
 
@@ -27,7 +28,7 @@ const App = () => {
           <Details title="Income" />
         </Grid>
         <Grid ref={main} item xs={12} sm={3} className={classes.main}>
-          <Main />
+          <Main /> 
         </Grid>
         <Grid item xs={12} sm={4} className={classes.desktop}>
           <Details title="Income" />
@@ -44,3 +45,4 @@ const App = () => {
 };
 
 export default App;
+//useref for scrolling up auto while speaking on phone

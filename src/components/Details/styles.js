@@ -8,3 +8,4 @@ export default makeStyles(() => ({
     borderBottom: '10px solid rgba(255, 0, 0, 0.5)',
   },
 }));
+// style for 2 cards  
